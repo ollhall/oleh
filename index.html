@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220515150106">
+    <title>Главная</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <canvas></canvas>
+    <div class="header__menu lock-padding">
+        <div class="header__container">
+            <div class="header__inner">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#about">Про мене</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#portfolio">Портфоліо</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#skills">Мої навички</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+              <a class="header__phone" href="tel:+380633255763"><span class="_icon-footer-phone"><span>Зв'язатися</span></span></a>
+            </div>
+            <button type="button" class="icon-menu">
+                <img src="img/burger.svg" alt="Burger menu">
+            </button>
+        </div>
+    </div>
+    <div class="header__container">
+        <div class="header__content content-header">
+            <div class="content-header__title">
+                <picture><source srcset="img/title.webp" type="image/webp"><img src="img/title.png" alt="Title"></picture>
+            </div>
+            <div class="header__slider slider-header swiper">
+                <div class="slider-header__body swiper-wrapper">
+                    <div class="slider-header__slide swiper-slide">
+                        <p>HTML</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>CSS</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>SCSS</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="slider-header__slide swiper-slide">
+                        <p>jQuery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <div class="page__about about" id="about">
+                <div class="about__container">
+                    <div class="about__wrapper">
+                        <div class="about__content content-about">
+                            <div class="content-about__title title">
+                                <picture><source srcset="img/about-title.webp" type="image/webp"><img src="img/about-title.png" alt="About title"></picture>
+                            </div>
+                            <div class="content-about__text">
+                                Вітаю Вас на своєму сайті-портфоліо. Мене звати Олег. Займаюся HTML-версткою сайтів. У мене повністю кросбраузерна, адаптивна та валідна верстка. Для забезпечення виконання вимог, що пред'являються до верстки сайту в процесі роботи над проектом, я використовую збирач Gulp для автоматизації процесу верстки, препроцесори Less/Sass для прискореної стилізації сайту та більш гнучкого коду, БЕМ та media-запити для адаптивної верстки сайту. Динаміка сайту організується власним JavaScript кодом, бібліотеки jQuery або налаштованими плагінами. Наприкінці роботи здійснюється перевірка відображення верстки у різних браузерах на різних пристроях, код перевіряється валідатором на відповідність стандартам та усуваються виявлені помилки. Можлива інтеграція верстки до CMS WordPress.
+                            </div>
+                        </div>
+                        <div class="about__avatar-ibg about__avatar-ibg_contain">
+                            <picture><source srcset="img/foto-avatar.webp" type="image/webp"><img src="img/foto-avatar.jpg" alt="Avatar Image"></picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__skills skills" id="skills">
+                <div class="skills__container">
+                    <div class="skills__title title">
+                        <picture><source srcset="img/skills-title.webp" type="image/webp"><img src="img/skills-title.png" alt="Skills Title"></picture>
+                    </div>
+                </div>
+                <div class="skills__slider slider-skills swiper">
+                    <div class="slider-skills__body swiper-wrapper">
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/01.webp" type="image/webp"><img src="img/skills/01.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">HTML</div>
+                                <div class="slider-skills__text">
+                                    Семантична розмітка коду Використання БЕМ
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">CSS</div>
+                                <div class="slider-skills__text">
+                                    Стилізація елементів на сторінці
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">JavaScript</div>
+                                <div class="slider-skills__text">
+                                    Підключення скриптів для динамічності сторінки
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/01.webp" type="image/webp"><img src="img/skills/01.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">jQuery</div>
+                                <div class="slider-skills__text">
+                                    Підключення анімації на сторінці
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/02.webp" type="image/webp"><img src="img/skills/02.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">Gulp</div>
+                                <div class="slider-skills__text">
+                                    Швидка компіляція файлів
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">Sass</div>
+                                <div class="slider-skills__text">
+                                    Швидке написання стилів
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">Figma</div>
+                                <div class="slider-skills__text">
+                                    Верстка сайту за макетом Figma
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-skills__slide swiper-slide">
+                            <div class="slider-skills__image-ibg">
+                                <picture><source srcset="img/skills/03.webp" type="image/webp"><img src="img/skills/03.png" alt="Skills Images"></picture>
+                            </div>
+                            <div class="slider-skills__content">
+                                <div class="slider-skills__title">Photoshop</div>
+                                <div class="slider-skills__text">
+                                    Верстка сайту за макетом PSD
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-skills__dotts dotts"></div>
+                </div>
+            </div>
+            <div class="page__portfolio portfolio" id="portfolio">
+                <div class="portfolio__container">
+                    <div class="portfolio__title title">
+                        <picture><source srcset="img/portfolio-title.webp" type="image/webp"><img src="img/portfolio-title.png" alt="Portfolio Title"></picture>
+                    </div>
+                    <div class="portfolio__content content-portfolio">
+                        <div class="content-portfolio__item" style="background-image: url(img/site/01.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/bakery/" target="_blank">Переглянути</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/03.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/textil/" target="_blank">Переглянути</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/02.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/Wedding_showroom/" target="_blank">Переглянути</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/05.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/guitar/" target="_blank">Переглянути</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/04.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/driskell/" target="_blank">Переглянути</a>
+                        </div>
+                        <div class="content-portfolio__item" style="background-image: url(img/site/06.jpg);">
+                            <a class="content-portfolio__link button" href="https://ollhall.github.io/video/" target="_blank">Переглянути</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__contacts contacts" id="contacts">
+                <div class="contacts__wrapper">
+                    <div class="contacts__container">
+                        <div class="contacts__title title">
+                            <picture><source srcset="img/contacts-title.webp" type="image/webp"><img src="img/contacts-title.png" alt="Contacts Title"></picture>
+                        </div>
+                    </div>
+                    <div class="contacts__box">
+                        <a class="contacts__box-item contacts__box-item--tel" href="tel:+380633255763">+380 (63) 325 57
+                            63</a>
+                        <a class="contacts__box-item contacts__box-item--telegram" target="_blank"
+                            href="https://t.me/oleggal1969">https://t.me/oleggal1969</a>
+                        <a class="contacts__box-item contacts__box-item--email"
+                            href="mailto:oleggal1969@gmail.com">oleggal1969@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <nav class="footer-menu">
+            <ul class="footer-menu__list">
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#about">Про мене</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#portfolio">Портфоліо</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#skills">Мої навички</a>
+                </li>
+                <li class="footer-menu__list-item">
+                    <a class="footer-menu__list-link" href="#contacts">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+    </div>
+    
+
+    <script src="js/app.min.js?_v=20220515150106"></script>
+</body>
+
+</html>
